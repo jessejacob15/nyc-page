@@ -9,7 +9,7 @@ function App() {
         <code>namelessyouthclub.</code>
       </p>
       <div className="d-flex align-items-center justify-content-center">
-        <img src="https://i.imgur.com/RRPTWKE.png" className="icon" />
+        <img src="https://i.imgur.com/5Eik5Ps.png" className="icon" />
       </div>
       <EmailForm />
     </div>
