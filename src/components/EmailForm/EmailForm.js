@@ -9,20 +9,28 @@ export default function EmailForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const data = {
-      Email: email,
-    };
-    console.log(data);
-    axios
-      .post(
-        "https://sheet.best/api/sheets/b0eb6f40-4e71-4a67-815e-601c50279145",
-        data
-      )
-      .then((response) => {
-        console.log(response);
-        setEmail("");
-        setConf("You have been subscribed");
-      });
+    //run verifications
+    if (email == "") {
+      setConf("enter a valid email");
+    }
+    if (email.includes("@") == false) {
+      setConf("enter a valid email");
+    } else {
+      const data = {
+        Email: email,
+      };
+      console.log(data);
+      axios
+        .post(
+          "https://sheet.best/api/sheets/b0eb6f40-4e71-4a67-815e-601c50279145",
+          data
+        )
+        .then((response) => {
+          console.log(response);
+          setEmail("");
+          setConf("You have been subscribed");
+        });
+    }
   };
 
   return (
