@@ -2,15 +2,12 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 import "./EmailForm.css";
-// import "../GoogleSpreadSheet/GoogleSpreadSheet";
-
-//import saveData from "./some-other-file";
 
 export default function EmailForm() {
   const [email, setEmail] = useState("");
+  const [conf, setConf] = useState("");
 
   const handleSubmit = (e) => {
-    // appendSpreadSheet(email);
     e.preventDefault();
     const data = {
       Email: email,
@@ -24,23 +21,23 @@ export default function EmailForm() {
       .then((response) => {
         console.log(response);
         setEmail("");
+        setConf("You have been subscribed");
       });
   };
 
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        <code>join mailing list</code>
+        <code>join mailing list.</code>
       </label>
       <input
         type="email"
-        placeholder="Enter your email"
+        placeholder="email"
         onChange={(e) => setEmail(e.target.value)}
         value={email}
       />
       <button type="submit"> Submit </button>
+      <code>{conf}</code>
     </form>
   );
 }
-
-//sheet id = 1GxhI084xF1wYFwu2RpnRyb_B1wgPSmY4u_YHrb3wr1U

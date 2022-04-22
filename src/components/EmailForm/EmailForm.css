@@ -11,5 +11,17 @@ form{
     margin: 0 auto;
     max-width: 500px;
     padding: 10px;
-   
+    align-content: center;
+    align-items: center;
 }
+
+input {
+    width: 80%;
+}
+
+
+button {
+    width: 50%;
+    align-items: center;
+}
+
