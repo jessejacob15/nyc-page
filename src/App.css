@@ -7,15 +7,15 @@
   width: 80vmin;
   height: 60vmin;
   padding-bottom: 2%;
-  -webkit-animation:spin 11s linear infinite;
+  /* -webkit-animation:spin 11s linear infinite;
     -moz-animation:spin 11s linear infinite;
-    animation:spin 11s linear infinite;
+    animation:spin 11s linear infinite; */
 }
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+/* @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
+ */
 
 p {
   font-size: 30px;
