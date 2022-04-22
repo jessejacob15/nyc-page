@@ -9,6 +9,12 @@ export default function EmailForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (email == "") {
+      setConf("enter a valid email");
+    }
+    if (email.includes("@") == false) {
+      setConf("enter a valid email");
+    }
     const data = {
       Email: email,
     };
