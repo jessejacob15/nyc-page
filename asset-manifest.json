@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nyc-page/static/css/main.398348f4.css",
-    "main.js": "/nyc-page/static/js/main.769f2d5b.js",
+    "main.js": "/nyc-page/static/js/main.77dc926c.js",
     "static/js/787.d355e731.chunk.js": "/nyc-page/static/js/787.d355e731.chunk.js",
     "index.html": "/nyc-page/index.html",
     "main.398348f4.css.map": "/nyc-page/static/css/main.398348f4.css.map",
-    "main.769f2d5b.js.map": "/nyc-page/static/js/main.769f2d5b.js.map",
+    "main.77dc926c.js.map": "/nyc-page/static/js/main.77dc926c.js.map",
     "787.d355e731.chunk.js.map": "/nyc-page/static/js/787.d355e731.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.398348f4.css",
-    "static/js/main.769f2d5b.js"
+    "static/js/main.77dc926c.js"
   ]
 }
