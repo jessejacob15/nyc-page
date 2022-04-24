@@ -5,11 +5,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <p>
-        <code>namelessyouthclub.</code>
-      </p>
+      <p>namelessyouthclub.</p>
       <div className="d-flex align-items-center justify-content-center">
-        <img src="https://i.imgur.com/5Eik5Ps.png" className="icon" />
+        <img src="https://i.imgur.com/tVjZsSF.png" className="icon" />
       </div>
       <EmailForm />
     </div>

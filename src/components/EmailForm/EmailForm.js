@@ -35,7 +35,7 @@ export default function EmailForm() {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        <code>join mailing list.</code>
+        <p2>join mailing list.</p2>
       </label>
       <input
         type="email"
@@ -44,7 +44,7 @@ export default function EmailForm() {
         value={email}
       />
       <button type="submit"> Submit </button>
-      <code>{conf}</code>
+      <p2>{conf}</p2>
     </form>
   );
 }
