@@ -21,11 +21,15 @@ input {
 
 
 button {
-    width: 50%;
+    width: 30%;
     align-items: center;
 }
 
 p2 {
     color: black;
+    font-family: monospace;
+}
+
+.input {
     font-family: monospace;
 }

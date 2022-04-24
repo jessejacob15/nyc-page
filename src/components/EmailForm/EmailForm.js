@@ -43,6 +43,7 @@ export default function EmailForm() {
         onChange={(e) => setEmail(e.target.value)}
         value={email}
       />
+      <br></br>
       <button type="submit">
         <p2>submit</p2>
       </button>
