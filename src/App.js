@@ -5,9 +5,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <p>namelessyouthclub.</p>
+      <p>namelessyouthclub</p>
       <div className="d-flex align-items-center justify-content-center">
-        <img src="https://i.imgur.com/tVjZsSF.png" className="icon" />
+        <div className="pics">
+          <img src="https://i.imgur.com/1avwSH3.png" className="icon" />
+          <img src="https://i.imgur.com/ModnZSi.png" className="icon" />
+          <img src="https://i.imgur.com/EYgsSbN.png" className="icon" />
+          <img src="https://i.imgur.com/UXQPvqO.png" className="icon" />
+          <img src="https://i.imgur.com/dEPuacq.png" className="icon" />
+        </div>
       </div>
       <EmailForm />
     </div>
